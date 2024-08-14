@@ -1,7 +1,7 @@
-import React from 'react';
-import { View, Text, Button } from 'react-native';
+import React from "react";
+import { View, Text, Button } from "react-native";
 
-export default function HomeScreen({ navigation }) {
+export default function DetailsScreen({ navigation }) {
   return (
     <View
       style={{
@@ -11,11 +11,11 @@ export default function HomeScreen({ navigation }) {
         alignItems: "center",
       }}
     >
-      <Text style={{fontSize: 40}}>Home Screen</Text>
+      <Text style={{fontSize: 40}}>Details Screen</Text>
       <View>
         <Button
-          title="Go to Details"
-          onPress={() => navigation.navigate("Details")}
+          title="Go to Home"
+          onPress={() => navigation.navigate("Home")}
         />
         <Button
           title="Go to Profile"
