@@ -60,9 +60,9 @@ Para rodar este projeto localmente, siga os passos abaixo:
    expo start
    ```
 
-4. **Inicie o App**:
+4. **Na execução**:
 
-   Use um emulador ou o aplicativo Expo Go em um dispositivo físico para rodar o projeto.
+   Quando rodar expo start, ele vai trazer a opção " s ", Expo Go, depois de selecionar essa, é só mirar seu celular no QRCODE lembrando que precisa ter o Expo Go instalado no celular, caso tenha emuladores no computador escolham android ou ios.
 
 ## Como Usar
 
